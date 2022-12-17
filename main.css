@@ -1,0 +1,52 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#004316, #000502);
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 500px;
+    height: 707px;
+    border: 5px solid black;
+    border-radius: 1.5em;
+}
+
+.button {
+    position:fixed;
+    display: flex;
+    margin-left: 75%;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    background-color: brown;
+    border: 5px solid black;
+    border-radius: 1em;
+}
+
+.button2 {
+    position:fixed;
+    display: flex;
+    margin-left: 13%;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    background-color: brown;
+    border: 5px solid black;
+    border-radius: 1em;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+.button2:hover {
+    cursor: pointer;
+}
